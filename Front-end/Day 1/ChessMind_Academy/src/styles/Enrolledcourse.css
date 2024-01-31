@@ -1,0 +1,82 @@
+.course_cont {
+    margin: 20px;
+    margin-left: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    padding: 20px;
+    width: 110%;
+  }
+  
+  .course {
+    background-color: antiquewhite;
+    margin:10px;
+    padding: 8px;
+    display: flex;
+    box-shadow: 5px 5px 15px 5px gray;
+    width: 78vh;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .course:hover{
+    transform: scale(1.1);
+  }
+  .course_search {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem;
+    border-radius: 5rem;
+  }
+  .course_search input {
+    flex: 1;
+    height: 80%;
+    border: none;
+    outline: none;
+  }
+  .course_img img {
+    width: 30vh;
+    height: 140px;
+    border-radius: 30px;
+  }
+  .course_details{
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+  .course_name h3{
+    font-family: "Reem Kufi", sans-serif !important;
+  }
+  .course_det{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+  .rating{
+    padding-top: 15px;
+  }
+  .button_{
+  background-color: rgb(120, 39, 23);
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  margin-left: 200px;
+  justify-content: center;
+  }
+  .button_:hover{
+    background-color: gray;
+    color: black;
+  }
+  .delete{
+    border: none;
+    outline: none;
+    padding-left: 9px;
+    color: rgb(120, 39, 23) ;
+    background-color: transparent;
+  }
+  .delete:hover{
+    color: black;
+  }
