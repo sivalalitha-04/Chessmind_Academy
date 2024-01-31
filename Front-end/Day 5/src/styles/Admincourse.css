@@ -1,0 +1,99 @@
+.adcourse_cont {
+    margin: 20px;
+    margin-left: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    padding: 20px;
+    width: 110%;
+  }
+  
+  .adcourse {
+    background-color: antiquewhite;
+    margin:10px;
+    padding: 8px;
+    display: flex;
+    box-shadow: 5px 5px 15px 5px gray;
+    width: 78vh;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .adcourse:hover{
+    transform: scale(1.1);
+  }
+  .adcourse_search {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem;
+    border-radius: 5rem;
+  }
+  .adcourse_search input {
+    flex: 1;
+    height: 80%;
+    border: none;
+    outline: none;
+  }
+  .adcourse_img img {
+    width: 30vh;
+    height: 140px;
+    border-radius: 30px;
+  }
+  .adcourse_details{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .adcourse_name {
+    font-family: "Reem Kufi", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+.adcourse_det{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 10px;
+    padding-top: 15px;
+    /* padding-left: 60px; */
+  }
+  .rating{
+    padding-top: 15px;
+  }
+  .adbutton_{
+  background-color: rgb(0, 0, 0);
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  margin-left: 200px;
+  justify-content: center;
+  }
+  .adbutton_:hover{
+    background-color: gray;
+    color: black;
+  }
+  .addelete{
+    border: none;
+    outline: none;
+    padding-left: 9px;
+    color: rgb(0, 0, 0) ;
+    background-color: transparent;
+  }
+  .addelete:hover{
+    color: black;
+  }
+  .add-course-form{
+    padding: 20px;
+  }
+  .add-course-form h3{
+    font-size: 29px;
+    padding-bottom: 20px;
+  }
