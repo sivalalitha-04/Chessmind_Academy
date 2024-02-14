@@ -1,0 +1,92 @@
+.academy_cont {
+    margin: 20px;
+    margin-left: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    padding: 20px;
+    width: 110%;
+  }
+  
+  .academy {
+    background-color: rgb(250, 235, 215);
+    margin:10px;
+    padding: 8px;
+    display: flex;
+    box-shadow: 5px 5px 15px 5px gray;
+    width: 78vh;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+  }
+  .academy:hover{
+    transform: scale(1.1);
+  }
+  
+ .academy-desc {
+    position: absolute;
+    top: 4%;
+    left: 110%;
+    width: 100%;
+    /* margin: 46px; */
+    padding: 30px;
+    display: none;
+    border-radius: 5px;
+    height: 70%;
+    border: 1px solid black;
+    background-color: rgba(250, 235, 215, 0.8);
+    transition: opacity 0.3s ease;
+  }
+  
+  .academy:hover .academy-desc {
+    display: block; /* show on hover */
+  }
+  .aca_search {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem;
+    border-radius: 5rem;
+  }
+  .aca_search input {
+    flex: 1;
+    height: 80%;
+    border: none;
+    outline: none;
+  }
+  .aca_img img {
+    width: 30vh;
+    height: 140px;
+    border-radius: 30px;
+  }
+  .aca_details{
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+  .aca_name h3{
+    font-family: "Reem Kufi", sans-serif !important;
+  }
+  .aca_det{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+  .rating{
+    padding-top: 15px;
+  }
+  .button{
+  background-color: rgb(120, 39, 23);
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  margin-left: 200px;
+  justify-content: center;
+  }
+  .button:hover{
+    background-color: gray;
+    color: black;
+  }

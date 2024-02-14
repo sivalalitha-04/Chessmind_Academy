@@ -1,0 +1,132 @@
+.adacademy_cont {
+    margin: 20px;
+    margin-left: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .adacademy {
+    background-color: rgb(250, 235, 215);
+    margin:10px;
+    padding: 8px;
+    display: flex;
+    box-shadow: 5px 5px 15px 5px gray;
+    width: 78vh;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .adacademy:hover{
+    transform: scale(1.1);
+  }
+  .academy-description {
+    display: none; /* Initially hide the description */
+    position: absolute;
+    top:1%;
+    left: 110%;
+    width: 90%;
+    background-color: rgba(250, 235, 215, 0.8); /* Semi-transparent background */
+    color: rgb(9, 9, 9);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    height: 80%;
+    border: 1px solid black;
+  }
+  
+  .adacademy:hover .academy-description {
+    display: block; /* Show the description when hovering over the academy */
+  }
+  
+  .adaca_search {
+    background-color: white;
+    width: 71%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5rem;
+  }
+  .adaca_search input {
+    flex: 1;
+    height: 80%;
+    border: none;
+    outline: none;
+  }
+  .adaca_img img {
+    width: 30vh;
+    height: 140px;
+    border-radius: 30px;
+  }
+  .adaca_details{
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+  .adaca_name h3{
+    font-family: "Reem Kufi", sans-serif !important;
+  }
+  .adaca_det{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+  .adrating{
+    padding-top: 15px;
+  }
+  .adbutton{
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  margin-left: 20px;
+  justify-content: center;
+  }
+  .adbutton:hover{
+    background-color: gray;
+    color: black;
+  }
+  .addbutton{
+  background-color:transparent;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  color: black;
+  margin-left: 30px;
+  margin-top: 9px;
+  justify-content: center;
+  outline: none;
+  border: none;
+  }
+  .addbutton:hover{
+    color: black;
+  }
+  .add-academy-form{
+    padding: 20px;
+  }
+  .add-academy-form h3{
+    font-size: 29px;
+    padding-bottom: 20px;
+  }
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* Ensure the overlay appears above other content */
+}
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(251, 242, 178);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1001;
+}
